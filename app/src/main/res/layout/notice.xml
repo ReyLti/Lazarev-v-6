@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Уведомления"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="37dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/view2"
+        android:background="@color/pink"
+        android:alpha="0.10"
+        android:layout_width="308dp"
+        android:layout_height="69dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="94dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сегодня будет Урок по Git"
+        android:textColor="#D557F4"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <View
+        android:id="@+id/view4"
+        android:background="@color/gr"
+        android:layout_width="308dp"
+        android:layout_height="69dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="186dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вчера вы выполнили 10 заданий"
+        android:textColor="@color/txt"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <View
+        android:id="@+id/view5"
+        android:background="@color/gr"
+        android:layout_width="309dp"
+        android:layout_height="68dp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="281dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Позавчера: Ваша оценка изменилась"
+        android:textColor="@color/txt"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="306dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать прогресс обучения"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="39dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="108dp"
+        android:checked="true"
+        android:shadowColor="#D557F4"
+        android:textColorHighlight="#D557F4"
+        android:textColorLink="#D557F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:useMaterialThemeColors="false" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Показать прогресс обучения"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="642dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="64dp"
+        android:checked="true"
+        android:textColorHighlight="#D557F4"
+        android:textColorLink="#D557F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Уведомлять об акциях и предложениях"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="693dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="4dp"
+        android:textColorHighlight="#D557F4"
+        android:textColorLink="#D557F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/backtwo"
+        android:layout_width="34dp"
+        android:layout_height="24dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/back"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
